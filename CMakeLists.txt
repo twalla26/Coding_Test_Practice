@@ -3,4 +3,4 @@ project(Coding_Test_Practice)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Coding_Test_Practice babbling01.cpp cola.cpp)
+add_executable(babbling01.cpp cola.cpp nameCard.cpp foodFightContest.cpp)

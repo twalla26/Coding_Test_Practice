@@ -41,41 +41,47 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/twalla/projects/Coding_Test_Practice/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Coding_Test_Practice
+# Object build statements for EXECUTABLE target babbling01.cpp
 
 
 #############################################
-# Order-only phony target for Coding_Test_Practice
+# Order-only phony target for babbling01.cpp
 
-build cmake_object_order_depends_target_Coding_Test_Practice: phony || CMakeFiles/Coding_Test_Practice.dir
+build cmake_object_order_depends_target_babbling01.cpp: phony || CMakeFiles/babbling01.cpp.dir
 
-build CMakeFiles/Coding_Test_Practice.dir/babbling01.cpp.o: CXX_COMPILER__Coding_Test_Practice_Debug /Users/twalla/projects/Coding_Test_Practice/babbling01.cpp || cmake_object_order_depends_target_Coding_Test_Practice
-  DEP_FILE = CMakeFiles/Coding_Test_Practice.dir/babbling01.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/Coding_Test_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Coding_Test_Practice.dir
+build CMakeFiles/babbling01.cpp.dir/cola.cpp.o: CXX_COMPILER__babbling01.2ecpp_Debug /Users/twalla/projects/Coding_Test_Practice/cola.cpp || cmake_object_order_depends_target_babbling01.cpp
+  DEP_FILE = CMakeFiles/babbling01.cpp.dir/cola.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/babbling01.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/babbling01.cpp.dir
 
-build CMakeFiles/Coding_Test_Practice.dir/cola.cpp.o: CXX_COMPILER__Coding_Test_Practice_Debug /Users/twalla/projects/Coding_Test_Practice/cola.cpp || cmake_object_order_depends_target_Coding_Test_Practice
-  DEP_FILE = CMakeFiles/Coding_Test_Practice.dir/cola.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/Coding_Test_Practice.dir
-  OBJECT_FILE_DIR = CMakeFiles/Coding_Test_Practice.dir
+build CMakeFiles/babbling01.cpp.dir/nameCard.cpp.o: CXX_COMPILER__babbling01.2ecpp_Debug /Users/twalla/projects/Coding_Test_Practice/nameCard.cpp || cmake_object_order_depends_target_babbling01.cpp
+  DEP_FILE = CMakeFiles/babbling01.cpp.dir/nameCard.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/babbling01.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/babbling01.cpp.dir
+
+build CMakeFiles/babbling01.cpp.dir/foodFightContest.cpp.o: CXX_COMPILER__babbling01.2ecpp_Debug /Users/twalla/projects/Coding_Test_Practice/foodFightContest.cpp || cmake_object_order_depends_target_babbling01.cpp
+  DEP_FILE = CMakeFiles/babbling01.cpp.dir/foodFightContest.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/babbling01.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/babbling01.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Coding_Test_Practice
+# Link build statements for EXECUTABLE target babbling01.cpp
 
 
 #############################################
-# Link the executable Coding_Test_Practice
+# Link the executable babbling01.cpp
 
-build Coding_Test_Practice: CXX_EXECUTABLE_LINKER__Coding_Test_Practice_Debug CMakeFiles/Coding_Test_Practice.dir/babbling01.cpp.o CMakeFiles/Coding_Test_Practice.dir/cola.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/Coding_Test_Practice.dir
+build babbling01.cpp: CXX_EXECUTABLE_LINKER__babbling01.2ecpp_Debug CMakeFiles/babbling01.cpp.dir/cola.cpp.o CMakeFiles/babbling01.cpp.dir/nameCard.cpp.o CMakeFiles/babbling01.cpp.dir/foodFightContest.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/babbling01.cpp.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Coding_Test_Practice
-  TARGET_PDB = Coding_Test_Practice.dbg
+  TARGET_FILE = babbling01.cpp
+  TARGET_PDB = babbling01.cpp.dbg
 
 
 #############################################
@@ -111,7 +117,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/twalla/projects/Coding_Test_Practice/cmake-build-debug
 
-build all: phony Coding_Test_Practice
+build all: phony babbling01.cpp
 
 # =============================================================================
 # Built-in targets
