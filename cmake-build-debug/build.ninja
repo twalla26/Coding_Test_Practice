@@ -67,6 +67,12 @@ build CMakeFiles/babbling01.cpp.dir/foodFightContest.cpp.o: CXX_COMPILER__babbli
   OBJECT_DIR = CMakeFiles/babbling01.cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/babbling01.cpp.dir
 
+build CMakeFiles/babbling01.cpp.dir/myOwnString.cpp.o: CXX_COMPILER__babbling01.2ecpp_Debug /Users/twalla/projects/Coding_Test_Practice/myOwnString.cpp || cmake_object_order_depends_target_babbling01.cpp
+  DEP_FILE = CMakeFiles/babbling01.cpp.dir/myOwnString.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/babbling01.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/babbling01.cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target babbling01.cpp
@@ -75,7 +81,7 @@ build CMakeFiles/babbling01.cpp.dir/foodFightContest.cpp.o: CXX_COMPILER__babbli
 #############################################
 # Link the executable babbling01.cpp
 
-build babbling01.cpp: CXX_EXECUTABLE_LINKER__babbling01.2ecpp_Debug CMakeFiles/babbling01.cpp.dir/cola.cpp.o CMakeFiles/babbling01.cpp.dir/nameCard.cpp.o CMakeFiles/babbling01.cpp.dir/foodFightContest.cpp.o
+build babbling01.cpp: CXX_EXECUTABLE_LINKER__babbling01.2ecpp_Debug CMakeFiles/babbling01.cpp.dir/cola.cpp.o CMakeFiles/babbling01.cpp.dir/nameCard.cpp.o CMakeFiles/babbling01.cpp.dir/foodFightContest.cpp.o CMakeFiles/babbling01.cpp.dir/myOwnString.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/babbling01.cpp.dir
   POST_BUILD = :
